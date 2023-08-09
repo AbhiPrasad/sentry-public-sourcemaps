@@ -1,5 +1,5 @@
 export function setupSentry(element: HTMLButtonElement) {
   element.addEventListener("click", () => {
-    throw new Error("throw!");
+    throw new Error("Sentry Error!");
   });
 }

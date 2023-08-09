@@ -1,5 +1,5 @@
 import "./style.css";
-import { setupSentry } from "./buttons.ts";
+import { setupSentry } from "./error.ts";
 import * as Sentry from "@sentry/browser";
 
 Sentry.init({
